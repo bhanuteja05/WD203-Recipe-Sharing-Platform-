@@ -1,0 +1,16 @@
+body{
+    background-image: url(IMAGES/food.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    
+    
+}
+.card .card-body input[type=text],input[type=email],input[type=number],input[type=password]{
+    border: none;
+    border-bottom: 3px solid lightblue;
+    outline: none;
+    width: 300px;
+}
+.card .card-body input[type=text],input[type=email],input[type=number],input[type=password]:hover{
+    background-color: none;
+}
